@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <style>
+        /* Your CSS styles */
+        .faq {
+            margin-top: 2rem;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+        }
+
+        .accordion-header {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .accordion-header span {
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .accordion-body {
+            display: none;
+            margin-top: 0.5rem;
+        }
+
+        .active span {
+            transform: rotate(45deg);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisean Incorporation </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div id="image-background">
+        <img src="https://res.cloudinary.com/dgkyo3wku/image/upload/v1715507340/21cb44137fb5821ff39f8c37ded3b822_geof0n.jpg" alt="Background Image">
+    </div>
+
+    <nav class="navbar navbar-styling navbar-expand-lg   fixed-top">
+        <a class="navbar-brand nav-logo pr-5" href="#">PiSean</a>
+        <button class="navbar-toggler bg-light " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service">
+                        Service
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">
+                        Team
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">
+                        FAQ
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0 search-button " type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <section id="home" class="home">
+        <h1 id="animated-heading">Revolutionizing The Self Checkout Industry</h1>
+        <h2></h2>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h1 class="heading">About Us</h1>
+        <div class="row">
+            <div class="content">
+                <h3>Effortless Shopping Revolutionized: Introducing Our AI-Powered Self-Checkout Gateway</h3>
+                <p>At Pisean Technologies Incorporation, We Proudly Present The Future Of Retail Convenience – Our Cutting-Edge AI-Powered Self-Checkout System. Say Goodbye To Traditional Checkout Hassles As Our Gateway Seamlessly Guides Customers Through A Revolutionary Shopping Experience.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="pt-5 pb-5 heading-service " style="background-color: #f2f2f2;">
+        <div class="container ">
+            <div class="row">
+                <div class="section-head col-sm-12 " id="service">
+                    <h1 class="heading "> Our Service </h1>
+                    <p>We Make Shopping Easy! Our System Uses AI Technology To Quickly Scan Your Items Without The Need for Tags, Providing You With All the Details Instantly. No Long Lines, Just Quick and Simple Checkout!
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span><img src=" https://res.cloudinary.com/dgkyo3wku/image/upload/v1706522780/cilbbswr6wt9gt8f0bmc.jpg " class="icon feature_box_col_one" alt="" /></span>
+
+                        <p>Store Officials Routinely Monitor Inventory Using AI Scanners, Ensuring Accurate Stock Levels and Timely Replenishment to Meet Customer Demands and Maintain Optimal Availability.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span><img src="https://res.cloudinary.com/dgkyo3wku/image/upload/v1706523859/WhatsApp_Image_2024-01-29_at_14.48.54_9b47edf5_c2cqcb.jpg" class="icon feature_box_col_two" alt=""></span>
+
+                        <p>Vendor Staff Regularly Update Inventory Through Our AI System, Ensuring Accurate and Timely Records of Stock Levels to Facilitate Efficient Supply Chain Management and Meet Customer Demands Effectively.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span><img src=" https://res.cloudinary.com/dgkyo3wku/image/upload/v1706524597/kpwfwyheefqie8gntrhh.jpg " class="icon feature_box_col_one" alt="" /></span>
+
+                        <p>Pisean Inc.'s Automated Inventory Software Seamlessly Processes Data From AI Scanners, Ensuring Real-Time Accuracy and Efficient Management of Stock Information for Streamlined Operations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span><img src=" https://res.cloudinary.com/dgkyo3wku/image/upload/v1706524673/wyqtvdgvv5pxghly4vju.jpg " class="icon feature_box_col_one" alt="" /></span>
+
+                        <p>Customer Purchases Are Instantly Processed and Updated on the Central Server, Reflecting Simultaneously in the Store System and on the Customer's Device for Real-Time, Synchronized Transaction Information and Enhanced Convenience.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span><img src=" https://res.cloudinary.com/dgkyo3wku/image/upload/v1706525130/shdp8tactpkitl5gberr.jpg" class="icon feature_box_col_one" alt="" /></span>
+
+                        <p>"Customers Effortlessly Scan Items Within Seconds at Our Gateway, Proceeding to Make Secure Online Payments Swiftly. Experience Seamless, Efficient Transactions That Enhance the Speed and Security of Your Shopping Process."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--
+    <section class="counters">
+        <div class="container">
+            <div>
+                <i class="far fa-clock fa-4x"></i>
+                <div class="counter" data-target="13500">0</div>
+                <h3>Working Hours</h3>
+            </div>
+            <div>
+                <i class="fas fa-gift fa-4x"></i>
+                <div class="counter" data-target="720">0</div>
+                <h3>Completed Projects</h3>
+            </div>
+            <div>
+                <i class="fas fa-users fa-4x"></i>
+                <div class="counter" data-target="480">0</div>
+                <h3>Happy Clients</h3>
+            </div>
+            <div>
+                <i class="fas fa-award fa-4x"></i>
+                <div class="counter" data-target="120">0</div>
+                <h3>Awards Received</h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-head-1 col-sm-12" style="text-align: center;">
+                    <h4 style="margin-top: -5rem;" id="portfolio"><span>Our</span> Projects</h4>
+
+                    <p>The objective of IT Company is to enable a large number of youth to take up <br>industry-relevant skill training that will help them<br> in securing a better livelihood.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                        <h6>Project-1</h6>
+
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.<br><br><br></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                        <h6>Project-2</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.<br><br><br></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                        <h6>Project-3</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor Aenean massa.<br><br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="communicate">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#contact"><button class="btn">Contact Now</button></a>
+    </div>
+
+    <div class="testimonials mt-100">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <h2 style="margin-top: -15rem;">Testimonials</h2>
+                <p style="font-size: 2rem;">
+                    See what people have to say about us
+                </p>
+            </div>
+
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/testimonial-1.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Person-1</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Testimonial
+
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/testimonial-2.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Person-2</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Testimonial
+
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/testimonial-3.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Person-3</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Testimonial
+
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/testimonial-4.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Person-4</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Testimonial
+
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item row align-items-center">
+                    <div class="testimonial-img">
+                        <img src="./images/testimonial-5.jpg" alt="Testimonial image">
+                    </div>
+                    <div class="testimonial-text">
+                        <h3>Person-5</h3>
+                        <h4>Designation</h4>
+                        <p>
+                            Testimonial
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clients mt-100">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Clients</h2>
+                <p>
+                    We don't just build softwares, we build your business.
+                </p>
+            </div>
+            <div class="owl-carousel clients-carousel">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+                <img src="./images/image.png" alt="Client Logo">
+            </div>
+        </div>
+    </div>
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>-->
+
+    <section class="team heading-service " style="margin-top: 7rem;">
+        <h1 class="heading" style="margin-top: -1.5rem;" id="team">our team</h1>
+        <p></p>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="https://res.cloudinary.com/dgkyo3wku/image/upload/v1706520418/drnmkmoih6rdnlpzotfv.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Abhishek Patnaik</h3>
+                    <span>Founder and CEO</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="https://res.cloudinary.com/dgkyo3wku/image/upload/v1706521943/penvjlpgea7rrrymuciv.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Kumar Gaurav</h3>
+                    <span>SDE @pisean inc..</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="https://res.cloudinary.com/dgkyo3wku/image/upload/v1706522111/irqp7z6xogtvdpo3z6qg.jpg" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Priyanka Buri</h3>
+                    <span>Software developer</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="" https://res.cloudinary.com/dgkyo3wku/image/upload/v1706521943/penvjlpgea7rrrymuciv.jpg"" alt="Team member 1">
+                </div>
+                <div class="info">
+                    <h3>Yatesh Nari</h3>
+                    <span>Cofounder @pisean Inc..</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1 class="heading" style=" color: #ffff">get in touch</h1>
+    </section>
+    <div class="contact-in">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form">
+            <form action="./contactme.php" method="POST">
+                <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
+                <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
+                <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
+                <input type="submit" value="Submit" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+    </div>
+
+    <section class="faq">
+        <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">FAQ</h1>
+        <div class="row">
+            <div class="accordion-container">
+                <div class="accordion">
+                    <div class="accordion-header" id="q1">
+                        <span>+</span>
+                        <h3 class="question">Q: How does the AI self-checkout system work?</h3>
+                    </div>
+                    <div class="accordion-body" id="a1">
+                        <p>Our AI-powered self-checkout system utilizes an AI cart and implements a double verification system at the payment gateway to prevent theft. Customers scan items using the AI cart, and at the gateway, there's an additional verification step to ensure that all items have been properly scanned and paid for, enhancing security and reducing the risk of theft.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">Q: What payment methods do you accept?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>We accept a variety of payment methods including credit cards, debit cards, mobile payments, and cash.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">Is the self-checkout system compatible with various types of products?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>our system is versatile and can be used for a wide range of products, including groceries, electronics, apparel, and more.
+
+                            +</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">Can the system handle promotional pricing and discounts</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>Absolutely! Our self-checkout system is designed to accommodate promotional pricing, discounts, and loyalty programs, offering a flexible solution for your business needs.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">How Secure Is The AI Technology Used In The System?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>The AI technology employed in our system is highly secure, ensuring accurate product scanning and secure transactions, enhancing both customer and merchant confidence.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">what is the pricing of your self checkout system?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>Through thorough market analysis, cost efficiency measures, and customer feedback, we maintain competitive and reasonable pricing for our products and services.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">What kind of support and training do you provide to shopping mall staff?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>We offer comprehensive training for shopping mall staff to ensure smooth implementation. Ongoing support is also provided to address any queries or technical issues..</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">How does the system handle situations like product theft or malfunction?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>Our system includes security measures to deter theft, and in case of malfunctions, we provide prompt technical support to address and resolve any issues.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">What benefits can our shopping mall expect from implementing this self-checkout system?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>Implementing our system can lead to reduced wait times, improved customer satisfaction, increased operational efficiency, and a modern, streamlined shopping experience.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header" id="q2">
+                        <span>+</span>
+                        <h3 class="question">How can shopping mall merchants get started with implementing the self-checkout system?</h3>
+                    </div>
+                    <div class="accordion-body" id="a2">
+                        <p>To get started with implementing the self-checkout system in your shopping mall, simply fill out the contact form on our website. Our team will reach out to schedule a demo video and guide you through the documentation formalities. Once completed, we'll proceed with the installation of the self-checkout system at your convenience.</p>
+                    </div>
+                </div>
+                <!-- Add more accordion items for other questions -->
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Toggle FAQ answers
+            $('.accordion-header').click(function() {
+                $(this).toggleClass('active');
+                $(this).next('.accordion-body').slideToggle();
+            });
+        });
+    </script>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Home</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Our service</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Terms & condition</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#team">Team</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="careers.html">Career</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#contact">Contact</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <br>
+                            karagpur ,West Bengal<br>
+                            Andhra Pradesh <br>
+                            <strong>Phone:</strong>91+ 90939 14884<br>
+                            <strong>Email:</strong> info@pisean.com<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                            <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="ion-logo-googleplus"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+
+                        <p></p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                    Copyright &copy; pisean technology. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+</body>
+
+</html>
