@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     }
 
     // Connect to SQLite database (adjust path if necessary)
-    $db = new SQLite3('contact_info.db');
+    $db = new SQLite3('./contact_info.db');
 
     // Prepare SQL statement to insert data
     $stmt = $db->prepare('INSERT INTO contacts (name, phone, email, message) VALUES (:name, :phone, :email, :message)');
