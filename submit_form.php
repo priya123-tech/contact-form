@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $db->close();
 } else {
     // Redirect to the form page if accessed directly
-    header("Location: contact_form.html");
+    header("Location: index.html");
     exit();
 }
 ?>
